@@ -3,6 +3,8 @@ import HomeView from "../views/HomeView.vue";
 import MoviesIndex from "../views/MoviesIndex";
 import MoviesNew from "../views/MoviesNew";
 import MoviesShow from "../views/MoviesShow";
+import SignupView from "../views/SignupView.vue";
+import SignupView from "../views/SignupView.vue";
 const routes = [
   {
     path: "/",
@@ -23,6 +25,11 @@ const routes = [
     path: "/movies/:id",
     name: "movies-show",
     component: MoviesShow,
+  },
+  {
+    path: "/signup",
+    name: "signup",
+    component: SignupView,
   },
 ];
 
