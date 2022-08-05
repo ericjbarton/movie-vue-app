@@ -39,6 +39,11 @@ const routes = [
     name: "login",
     component: LoginView,
   },
+  {
+    path: "/logout",
+    name: "logout",
+    component: LogoutView,
+  },
 ];
 
 const router = createRouter({
